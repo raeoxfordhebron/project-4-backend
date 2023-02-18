@@ -10,7 +10,7 @@ class Job(models.Model):
     salary = models.CharField(max_length=50)
     remote = models.BooleanField()
     
-class Language(models.Model):
-    languageid = models.IntegerField()
-    name = models.CharField(max_length=50)
-    jobid = models.IntegerField()
+# class Language(models.Model):
+#     languageid = models.IntegerField()
+#     name = models.CharField(max_length=50)
+#     jobid = models.IntegerField()
