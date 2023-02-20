@@ -18,7 +18,7 @@ This app lets users keep track of their job applications as they embark on their
 
 
 ### Schema
-<img src="https://i.imgur.com/uqv1hdt.png">
+<img src="https://i.imgur.com/VtjUh1b.png">
 
 ### Wireframes & Mockups
 
