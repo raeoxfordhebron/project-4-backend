@@ -8,7 +8,7 @@ class Job(models.Model):
     description = models.TextField()
     type = models.CharField(max_length=50)
     salary = models.CharField(max_length=50)
-    remote = models.BooleanField()
+    remote = models.BooleanField(blank=True, null=True)
     
 class Language(models.Model):
     languageid = models.IntegerField()
