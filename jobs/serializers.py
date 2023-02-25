@@ -7,7 +7,7 @@ class JobSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         # Model serializes it
         model = Job
-        fields = ['id', 'title', 'description', 'type', 'salary', 'remote']
+        fields = ['id', 'title', 'description', 'type', 'salary', 'remote', 'link']
         
         
 class LanguageSerializers(serializers.HyperlinkedModelSerializer):
